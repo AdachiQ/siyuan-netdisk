@@ -1,0 +1,29 @@
+{
+  "name": "siyuan-netdisk",
+  "author": "qiancang",
+  "url": "https://github.com/AdachiQ/siyuan-netdisk",
+  "version": "1.0.0",
+  "minAppVersion": "3.7.0",
+  "kernels": ["windows", "linux", "darwin", "ios", "android", "harmony", "docker", "all"],
+  "backends": ["windows", "linux", "darwin", "ios", "android", "harmony", "docker", "all"],
+  "frontends": ["desktop", "mobile", "browser-desktop", "browser-mobile", "desktop-window", "all"],
+  "disabledInPublish": false,
+  "displayName": {
+    "default": "SiYuan Netdisk",
+    "zh-CN": "思源网盘"
+  },
+  "description": {
+    "default": "Use data/assets as a netdisk: browse by folder or type, search by filename, preview images and videos, download cloud assets on demand, view and restore per-file versions from data snapshots, and protect the netdisk folder from being deleted.",
+    "zh-CN": "把 data/assets 当成网盘来用：按目录/类型浏览、搜索文件名、预览图片视频、按需下载云端资源、查看并还原文件的历史版本，并保护网盘目录不被误删。"
+  },
+  "readme": {
+    "default": "README.md",
+    "zh-CN": "README.md"
+  },
+  "keywords": ["plugin", "assets", "asset", "file", "netdisk", "snapshot", "mobile", "kikit-generated"],
+  "kikit": {
+    "generated": true,
+    "schemaVersion": 1,
+    "sourceSkill": "kikit-siyuan-plugin-maker"
+  }
+}
