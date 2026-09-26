@@ -4,9 +4,9 @@
   "url": "https://github.com/AdachiQ/siyuan-netdisk",
   "version": "1.0.0",
   "minAppVersion": "3.7.0",
-  "kernels": ["windows", "linux", "darwin", "ios", "android", "harmony", "docker", "all"],
-  "backends": ["windows", "linux", "darwin", "ios", "android", "harmony", "docker", "all"],
-  "frontends": ["desktop", "mobile", "browser-desktop", "browser-mobile", "desktop-window", "all"],
+  "kernels": ["windows", "linux", "darwin", "android"],
+  "backends": ["windows", "linux", "darwin", "android"],
+  "frontends": ["desktop", "mobile"],
   "disabledInPublish": false,
   "displayName": {
     "default": "SiYuan Netdisk",
@@ -20,10 +20,5 @@
     "default": "README.md",
     "zh-CN": "README.md"
   },
-  "keywords": ["plugin", "assets", "asset", "file", "netdisk", "snapshot", "mobile", "kikit-generated"],
-  "kikit": {
-    "generated": true,
-    "schemaVersion": 1,
-    "sourceSkill": "kikit-siyuan-plugin-maker"
-  }
+  "keywords": ["plugin", "assets", "asset", "file", "netdisk", "snapshot", "mobile", "kikit-generated"]
 }
